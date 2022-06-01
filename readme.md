@@ -402,4 +402,3 @@ emerge -aq librewolf  # beard time
 
 # YOU JUST INSTALLED GENTOO :D
 you can now tell others to 'install gentoo'
-
