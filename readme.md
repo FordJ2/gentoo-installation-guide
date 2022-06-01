@@ -309,7 +309,7 @@ systemctl enable gdm
 systemctl start gdm
 ```
 
-#### KDE/plasma (untested)
+#### KDE/Plasma (untested)
 https://wiki.gentoo.org/wiki/KDE
 https://wiki.gentoo.org/wiki/SDDM
 ```
