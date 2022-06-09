@@ -371,7 +371,8 @@ set border 3  # window padding
 bind a exec alacritty  # executed by 'ctrl+t a'
 bind l exec librewolf
 
-# resizing and splitting
+# window management
+bind M-R remove
 bind R resize  # executed by 'ctrl+t shift+r'
 bind V vsplit
 bind H hsplit
