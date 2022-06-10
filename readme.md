@@ -93,7 +93,7 @@ mount --rbind /sys /mnt/gentoo/sys
 mount --rbind /run /mnt/gentoo/run
 mount --rbind /dev /mnt/gentoo/dev
 mount --make-rslave /mnt/gentoo/sys
-mount --make-rslave /dev /mnt/gentoo/dev
+mount --make-rslave /mnt/gentoo/dev
 mount --make-slave /mnt/gentoo/run
 
 chroot /mnt/gentoo /bin/bash
