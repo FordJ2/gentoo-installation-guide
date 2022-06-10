@@ -69,7 +69,7 @@ vi /mnt/gentoo/etc/portage/make.conf
 CHOST="x86_64-pc-linux-gnu"
 COMMON_FLAGS="-02 -pipe -march=native"
 
-MAKEOPTS="-j6"  # 2gb of ram is required per thread. list the number of cores that fit within this requirement
+MAKEOPTS="-j12"  # 2gb of ram is required per thread. list the number of threads that fit within this requirement
 #PORTAGE_NICENESS=1  # add this once finished the install as it prioritizes tasks
 ACCEPT_LICENSE="*"
 
