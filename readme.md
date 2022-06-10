@@ -59,7 +59,7 @@ links gentoo.mirrors.tera-byte.com/releases/amd64/autobuilds  # significant poin
 >[Yes]
 >-----<
 
-tar -xpf stage3-*.tar.xz --xattrs-include=`*.*` --numeric-owner  # unpack tarball
+tar xpvf stage3* --xattrs-include=`*.*` --numeric-owner  # unpack tarball
 ```
 
 ### preparing emerge
