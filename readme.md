@@ -398,7 +398,7 @@ auto-sync = Yes
 >-----<
 
 emaint -r librewolf sync
-emerge -aq librewolf  # beard time
+emerge -aq librewolf  # beard time - 65m
 ```
 
 # YOU JUST INSTALLED GENTOO :D
